@@ -1,6 +1,5 @@
 # Ignore node_modules in the server folder
 node_modules/
-
 # Optional npm cache directory
 .npm
 

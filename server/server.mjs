@@ -14,7 +14,6 @@ const connectDb = () => {
     .then((res) => console.log("Db Connect"))
     .catch((e) => console.log(e,"db disconect"));
 };
-
 app.post("/api/register", async (req, res) => {
   try {
     const { name, email, phone, password } = req?.body;
